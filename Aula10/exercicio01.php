@@ -18,7 +18,7 @@
             case 2:
                 $r = $n ^ 3;
             case 3:
-                $r = sqrt($n)
+                $r = sqrt($n);
         }
     ?>
 </div>    
