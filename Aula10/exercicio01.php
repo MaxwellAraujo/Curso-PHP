@@ -15,12 +15,17 @@
         switch ($o) {
             case 1:
                 $r = $n * 2;
+                break;
             case 2:
                 $r = $n ^ 3;
+                break;
             case 3:
                 $r = sqrt($n);
+                break;
         }
+        echo "O resultado da operação solicitada foi <span class='foco'>$r</span>"
     ?>
+    <a href="exercicio01.html" class="botao">Voltar</a>
 </div>    
 </body>
 </html>
